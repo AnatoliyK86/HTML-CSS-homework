@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* .wrapper {
+  width: 675px;
+  height: 632px;
+  border: 2px solid black;
+  border-bottom: none;
+  margin: 0 auto;
+} */
+
+/* блок Header */
+
+.header_one {
+  background-color: rgba(255, 255, 240, 255);
+  width: 215px;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.header_two {
+  background-color: rgba(210, 180, 140, 255);
+  width: 535px;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header_three {
+  background-color: rgba(250, 235, 215, 255);
+  width: 675px;
+  height: 135px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* блок Menu */
+
+.block_menu {
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100px;
+  width: 675px;
+}
+
+.block_menu_one {
+  background-color: rgba(95, 158, 160, 255);
+  width: 135px;
+  height: 100px;
+  float: left;
+}
+
+.block_menu_two {
+  background-color: rgba(100, 149, 237, 255);
+  width: 135px;
+  height: 100px;
+  float: left;
+}
+
+.block_menu_three {
+  background-color: rgba(245, 222, 179, 255);
+  width: 135px;
+  height: 100px;
+  float: left;
+}
+
+.block_menu_foue {
+  background-color: rgba(240, 128, 128, 255);
+  width: 135px;
+  height: 100px;
+  float: left;
+}
+
+.block_menu_five {
+  background-color: rgba(75, 0, 130, 255);
+  width: 135px;
+  height: 100px;
+  float: left;
+}
+
+/* Блок Content */
+
+.site_content {
+  width: 675px;
+  height: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Блок Content_Left */
+
+.site_content_left {
+  background-color: rgba(0, 128, 0, 255);
+  width: 33.33%;
+  height: 300px;
+  float: left;
+}
+
+.site_content_left_text {
+  background-color: rgba(192, 192, 192, 255);
+  height: 68px;
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.site_content_left_numbers {
+  height: 200px;
+  width: 110px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 20px;
+}
+
+.site_content_left_numbers_three {
+  background-color: rgba(139, 0, 0, 255);
+  width: 110px;
+  height: 68px;
+  float: left;
+}
+
+.site_content_left_numbers_four {
+  background-color: rgba(250, 128, 114, 255);
+  width: 55px;
+  height: 132px;
+  float: left;
+}
+
+.site_content_left_numbers_five {
+  background-color: rgba(189, 183, 107, 255);
+  width: 55px;
+  height: 132px;
+  float: left;
+}
+
+/* Блок Content_Centre */
+
+.site_content_centre {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+}
+
+.site_content_centre_a {
+  background-color: rgba(0, 128, 128, 255);
+  height: 35px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_b {
+  background-color: rgba(102, 205, 170, 255);
+  height: 265px;
+  width: 33.33%;
+  float: left;
+}
+
+.site_content_centre_b_one {
+  background-color: rgba(165, 42, 42, 255);
+  height: 200px;
+  width: 50%;
+  float: left;
+  margin-top: 47px;
+}
+
+.site_content_centre_b_two {
+  background-color: rgba(173, 255, 47, 255);
+  height: 100px;
+  width: 50%;
+  float: left;
+  margin-top: 147px;
+}
+
+.site_content_centre_c {
+  height: 265px;
+  width: 33.33%;
+  float: left;
+}
+
+.site_content_centre_c_one {
+  background-color: rgba(173, 216, 230, 255);
+  height: 65px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_c_two {
+  background-color: rgba(0, 0, 139, 255);
+  height: 65px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_c_three {
+  background-color: rgba(139, 0, 139, 255);
+  height: 65px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_c_four {
+  background-color: rgba(253, 245, 230, 255);
+  height: 70px;
+  width: 50%;
+  float: left;
+}
+
+.site_content_centre_c_five {
+  background-color: rgba(252, 167, 138, 255);
+  height: 70px;
+  width: 50%;
+  float: left;
+}
+
+.site_content_centre_d {
+  height: 265px;
+  width: 33.33%;
+  float: left;
+}
+
+.site_content_centre_d_ {
+  background-color: rgba(64, 224, 208, 255);
+  height: 65px;
+  width: 100%;
+  float: left;
+}
+.site_content_centre_d_one {
+  background-color: rgba(0, 128, 128, 255);
+  height: 65px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_d_two {
+  background-color: rgba(255, 222, 173, 255);
+  height: 135px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_centre_d_picture {
+  height: 40px;
+  width: 30px;
+  margin: 0 auto;
+}
+
+/* Блок Content_Right */
+
+.site_content_right {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+}
+
+.site_content_right-1 {
+  background-color: rgba(143, 188, 143, 255);
+  height: 35px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-2 {
+  background-color: rgba(218, 112, 214, 255);
+  height: 35px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-3 {
+  background-color: rgba(255, 127, 80, 255);
+  height: 35px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-4 {
+  background-color: rgba(250, 240, 230, 255);
+  height: 50px;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.site_content_right-5 {
+  background-color: rgba(255, 0, 0, 255);
+  height: 25px;
+  width: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 13px;
+}
+
+.site_content_right-5_black {
+  background-color: rgba(0, 0, 0, 255);
+  height: 5px;
+  width: 19%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.site_content_right-6 {
+  background-color: rgba(220, 220, 220, 255);
+  height: 50px;
+  width: 100%;
+  float: left;
+}
+
+.site_content_right-7 {
+  background-color: rgba(47, 79, 79, 255);
+  height: 165px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-8 {
+  background-color: rgba(112, 128, 144, 255);
+  height: 52px;
+  width: 66.67%;
+  float: left;
+}
+
+.site_content_right-9 {
+  background-color: rgba(138, 43, 226, 255);
+  height: 53px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-10 {
+  background-color: rgba(250, 250, 210, 255);
+  height: 53px;
+  width: 33.3%;
+  float: left;
+}
+
+.site_content_right-11 {
+  background-color: rgba(221, 160, 221, 255);
+  height: 60px;
+  width: 66.67%;
+  float: left;
+}
+
+.footer {
+  background-color: rgba(105, 105, 105, 255);
+  height: 97px;
+  width: 675px;
+  margin: 0 auto;
+}

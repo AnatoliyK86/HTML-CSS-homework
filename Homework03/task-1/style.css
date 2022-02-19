@@ -1,0 +1,43 @@
+.my-first-block {
+  background-color: rgb(45, 231, 175);
+  margin: 0 auto;
+  width: 300px; /* Ширина */
+  height: 150px; /* Высота */
+  outline-color: red;
+  outline-style: dashed;
+}
+
+.my-second-block {
+  background-color: yellow;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px; /* Ширина */
+  height: 150px; /* Высота */
+  outline-color: red;
+  outline-style: dotted;
+}
+
+.my-third-block {
+  background-color: rgb(45, 231, 175);
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px; /* Ширина */
+  height: 150px; /* Высота */
+  border-width: 15px;
+  border-style: solid;
+  border-top-color: rgb(9, 9, 99);
+  border-left-color: rgb(9, 9, 99);
+  border-right-color: blue;
+  border-bottom-color: blue;
+}
+
+.my-fourth-block {
+  background-color: rgb(45, 231, 175);
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 300px; /* Ширина */
+  height: 150px; /* Высота */
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: black;
+}

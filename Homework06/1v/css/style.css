@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "bahij-sultannahia";
+  src: url(../fonts/bahij-sultannahia.ttf);
+}
+
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url(../fonts/ChronicaPro-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+.wrapper {
+  max-width: 1440px;
+  min-height: 900px;
+}
+
+.nav_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav_menu_item {
+  margin-top: 54px;
+  margin-bottom: 32px;
+  padding-right: 56px;
+  list-style: none;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav_menu_link {
+  text-decoration: none;
+  color: #131313;
+}
+
+.nav_menu_link_active {
+  text-decoration: none;
+  color: #2785F7;
+}
+
+.main_block {
+  background: #EAEBED;
+  border-radius: 30px;
+  margin-bottom: 44px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1404px;
+  height: 726px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.side_nav {
+  width: 105px;
+  min-height: 420px;
+  margin-top: 171px;
+  margin-left: 23px;
+  margin-right: 30px;
+  margin-bottom: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  background-color: #FEFEFE;
+  list-style: none;
+}
+
+.side_nav_item {
+  padding: 15px 15px;
+}
+
+.side_nav_item_folder {
+  display: block;
+  background-image: url(/images/folder.svg);
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+
+.side_nav_item_monitor {
+  display: block;
+  background-image: url(/images/monitor.svg);
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+
+.side_nav_item_users {
+  display: block;
+  background-image: url(/images/users-alt.svg);
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+
+.side_nav_item_cloud {
+  display: block;
+  background-image: url(/images/cloud-share.svg);
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+
+.side_nav_item_cog {
+  display: block;
+  background-image: url(/images/cog.svg);
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+
+.top_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 130px;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+
+.block_project {
+  width: 590px;
+  height: 130px;
+  border-radius: 30px;
+  margin-right: 35px;
+  background-color: #FEFEFE;
+  display: inline-block;
+  padding: 32px 42px;
+  padding-right: 0;
+  vertical-align: middle;
+}
+
+.block_project span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B1B1B1;
+}
+
+.block_project h3 {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.block_company {
+  width: 590px;
+  height: 130px;
+  margin-left: 35px;
+  border-radius: 30px;
+  background-color: #FEFEFE;
+  display: inline-block;
+  padding: 32px 42px;
+  padding-right: 0;
+  vertical-align: middle;
+}
+
+.block_company span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B1B1B1;
+}
+
+.block_company h3 {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.main_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: safe;
+      -ms-flex-pack: safe;
+          justify-content: safe;
+}
+/*# sourceMappingURL=style.css.map */
